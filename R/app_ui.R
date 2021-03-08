@@ -8,9 +8,11 @@ app_ui <- function(request) {
   tagList(
     # Leave this function for adding external resources
     golem_add_external_resources(),
+
     # List the first level UI elements here 
     fluidPage(
-      h1("SoulScreamR")
+      h1("SoulScreamR"),
+      mod_hidden_stats_to_audio_ui("hidden_stats_to_audio_ui")
     )
   )
 }

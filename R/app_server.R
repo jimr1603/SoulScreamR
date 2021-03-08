@@ -6,5 +6,6 @@
 #' @noRd
 app_server <- function( input, output, session ) {
   # List the first level callModules here
-
+  callModule(mod_hidden_stats_to_audio_server, "hidden_stats_to_audio_ui")
+  
 }
