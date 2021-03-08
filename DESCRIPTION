@@ -1,13 +1,9 @@
 Package: SoulScreamR
-Title: An Amazing Shiny App
+Title: SoulScreamR
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "firstname",
-           family = "lastname",
-           role = c("aut", "cre"),
-           email = "your@email.com")
-Description: What the package does (one paragraph).
-License: What license is it under?
+Authors@R: person('James', 'Riley', email = 'jimr1603@gmail.com', role = c('cre', 'aut'))
+Description: Turn a Blaseball player's stats into sound.
+License: GPL (>= 3)
 Imports: 
     config,
     golem,
